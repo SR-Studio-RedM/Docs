@@ -1,0 +1,325 @@
+/* ============================================================
+   SR MEDIA — VitePress brand layer (over the default theme)
+   Matches the Tebex theme: ivory-on-ink studio showroom,
+   Bodoni Moda display, Archivo UI, brass #C9A96A actions.
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Archivo:wght@300;400;500;600;700&display=swap");
+
+:root {
+  /* Brand palette */
+  --sr-ink: #0b0b0d;
+  --sr-ink-2: #111114;
+  --sr-ink-3: #17171b;
+  --sr-line: #26262c;
+  --sr-bone: #ede6d6;
+  --sr-bone-dim: #b8b2a4;
+  --sr-brass: #c9a96a;
+  --sr-brass-hover: #ddc08a;
+
+  --sr-logo: url("data:image/svg+xml,%3Csvg%20width%3D%22100%25%22%20height%3D%22100%25%22%20viewBox%3D%220%200%20256%20256%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23EDE6D6%22%20transform%3D%22matrix(0.335266%2C0%2C0%2C0.335266%2C-9.01507%2C24.171501)%22%3E%3Cpath%20d%3D%22M703.466%2C592.196C718.16%2C589.112%20720.784%2C583.864%20721.606%2C589.485C722.415%2C595.015%20697.049%2C608.239%20684.511%2C612.53C679.41%2C614.275%20646.412%2C625.568%20617.483%2C619.602C584.032%2C612.703%20562.278%2C600.159%20533.963%2C546.258C495.523%2C473.08%20474.53%2C416.458%20433.377%2C405.927C419.695%2C402.426%20398.179%2C402.967%20397.39%2C403.067C395.443%2C403.313%20396.345%2C404.475%20396.049%2C445.503C395.766%2C484.773%20397.001%2C485.761%20393.681%2C487.821C359.915%2C508.772%20325.649%2C511.241%20320.542%2C511.856C316.299%2C512.367%20314.241%2C513.804%20314.272%2C509.498C314.313%2C504.062%20314.245%2C296.916%20314.255%2C295.486C314.274%2C293.075%20315.13%2C292.738%20317.301%2C293.917C332.276%2C302.054%20345.699%2C306.089%20392.727%2C333.077C397.055%2C335.561%20395.926%2C336.502%20395.976%2C341.501C396.001%2C344.061%20396.056%2C349.622%20396.061%2C373.502C396.062%2C381.763%20392.335%2C386.704%20400.497%2C385.476C434.388%2C380.375%20505.584%2C372.38%20534.29%2C315.396C556.958%2C270.4%20554.003%2C183.1%20480.557%2C161.329C474.254%2C159.46%20458.174%2C154.694%20398.51%2C156.613C398.3%2C156.62%20396.719%2C156.67%20396.692%2C158.512C395.843%2C217.391%20399.073%2C222.396%20394.724%2C220.079C391.127%2C218.163%20351.849%2C197.239%20349.799%2C196.047C319.46%2C178.402%20319.189%2C178.94%20316.593%2C177.342C312.298%2C174.698%20315.714%2C164.381%20310.766%2C156.356C303.552%2C144.657%20292.179%2C147.527%20291.467%2C143.506C290.295%2C136.895%20293.78%2C138.393%20300.501%2C138.391C459.62%2C138.36%20481.898%2C137.369%20517.512%2C144.434C640.006%2C168.736%20643.037%2C254.896%20622.23%2C299.37C594.803%2C357.992%20508.494%2C378.687%20499.263%2C380.042C490.481%2C381.332%20500.958%2C382.255%20509.464%2C384.612C584.038%2C405.276%20604.032%2C508.352%20640.084%2C557.838C666.65%2C594.304%20690.771%2C592.769%20703.466%2C592.196ZM368.749%2C217.059C381.255%2C223.741%20420.938%2C243.669%20443.843%2C260.02C485.293%2C287.061%20500.238%2C320.14%20503.177%2C326.644C506.782%2C334.624%20506.959%2C335.498%20503.76%2C337.834C497.757%2C342.217%20498.383%2C342.849%20492.19%2C347.106C473.23%2C360.138%20444.416%2C369.421%20442.91%2C367.141C425.336%2C340.537%20418.84%2C332.401%20321.701%2C286.079C216.986%2C236.144%20191.868%2C209.613%20182.887%2C200.128C98.616%2C111.12%20187.203%2C-32.071%20390.561%2C10.153C418.167%2C15.885%20444.433%2C27.07%20463.628%2C7.613C464.926%2C6.298%20474.785%2C4.453%20474.673%2C9.501C474.066%2C37.089%20472.709%2C37.007%20473.434%2C106.501C473.574%2C119.915%20474.315%2C125.784%20471.548%2C125.888C458.76%2C126.367%20457.882%2C125.711%20457.464%2C122.504C448.799%2C56.132%20375.303%2C7.717%20291.5%2C20.5C250.812%2C26.707%20234.139%2C52.44%20231.063%2C57.186C206.739%2C94.728%20233.279%2C128.136%20237.058%2C132.893C245.167%2C143.101%20249.927%2C153.079%20330.741%2C197.056C332.048%2C197.766%20367.258%2C216.049%20368.749%2C217.059ZM112.26%2C346.374C117.076%2C338.22%20116.923%2C338.22%20122.181%2C330.277C129.928%2C318.574%20147.59%2C303.981%20153.833%2C299.96C225.429%2C253.845%20296.445%2C281.82%20301.274%2C286.713C302.989%2C288.451%20302.032%2C333.516%20301.945%2C337.586C301.86%2C341.618%20297.862%2C336.981%20296.261%2C335.862C256.737%2C308.259%20218.794%2C309.531%20216.5%2C309.482C146.419%2C308.003%20130.66%2C367.505%20129.845%2C383.52C127.439%2C430.801%20142.644%2C455.483%20173.171%2C481.875C212.998%2C516.306%20315.7%2C535.81%20381.705%2C504.947C442.444%2C476.547%20441.316%2C438.687%20442.443%2C424.478C442.844%2C419.41%20463.001%2C437.249%20473.129%2C455.709C479.585%2C467.478%20480.277%2C468.146%20477.667%2C471.634C472.977%2C478.1%20469.32%2C481.711%20468.51%2C482.51C379.749%2C570.146%20174.147%2C566.677%20116.204%2C465.664C90.925%2C421.595%2099.812%2C383.804%20104.036%2C367.373C105.264%2C363.086%20106.669%2C357.541%20112.26%2C346.374ZM274.503%2C607.342C269.348%2C606.382%20271.285%2C599.74%20274.507%2C599.584C279.808%2C599.327%20294.781%2C599.87%20305.323%2C587.351C312.915%2C578.334%20314.057%2C558.115%20314.206%2C555.472C314.481%2C550.614%20325.371%2C555.88%20373.365%2C543.037C382.924%2C540.479%20395.276%2C534.998%20396.451%2C536.531C399.063%2C539.938%20386.563%2C597.054%20440.501%2C599.484C445.633%2C599.715%20446.108%2C598.782%20447.26%2C600.62C447.324%2C600.722%20448.352%2C605.929%20446.317%2C607.094C444.717%2C608.01%20288.008%2C606.823%20274.503%2C607.342Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+
+  /* VitePress token remap */
+  --vp-c-bg: var(--sr-ink);
+  --vp-c-bg-alt: var(--sr-ink-2);
+  --vp-c-bg-elv: var(--sr-ink-2);
+  --vp-c-bg-soft: var(--sr-ink-3);
+  --vp-c-border: var(--sr-line);
+  --vp-c-divider: var(--sr-line);
+  --vp-c-gutter: var(--sr-line);
+  --vp-c-text-1: var(--sr-bone);
+  --vp-c-text-2: var(--sr-bone-dim);
+  --vp-c-text-3: var(--sr-bone-dim);
+
+  --vp-c-brand-1: var(--sr-brass);
+  --vp-c-brand-2: var(--sr-brass-hover);
+  --vp-c-brand-3: var(--sr-brass);
+  --vp-c-brand-soft: rgb(201 169 106 / 14%);
+
+  --vp-font-family-base: "Archivo", ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono:
+    ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    120deg,
+    var(--sr-bone) 30%,
+    var(--sr-brass)
+  );
+
+  --vp-code-block-bg: var(--sr-ink-3);
+  --vp-code-tab-divider: var(--sr-line);
+  --vp-code-copy-code-bg: var(--sr-ink-3);
+  --vp-code-copy-code-border: var(--sr-line);
+
+  --vp-sidebar-bg-color: var(--sr-ink);
+  --vp-nav-bg-color: var(--sr-ink);
+}
+
+html {
+  scrollbar-color: #3a3a42 var(--sr-ink);
+}
+
+::selection {
+  color: #141310;
+  background-color: var(--sr-brass);
+}
+
+:focus-visible {
+  outline: 2px solid var(--sr-brass);
+  outline-offset: 2px;
+}
+
+/* ---------- Type ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.VPHomeHero .name,
+.VPHomeHero .text,
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-family: "Bodoni Moda", serif;
+  letter-spacing: -0.02em;
+}
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4 {
+  font-weight: 600;
+}
+
+/* ---------- Header wordmark: monogram + site title ---------- */
+
+.VPNavBarTitle .title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sr-bone);
+}
+.VPNavBarTitle .title::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  background: var(--sr-logo) center/contain no-repeat;
+}
+.VPNavBarTitle .title:hover {
+  color: var(--sr-bone);
+  opacity: 1;
+}
+
+/* ---------- Hero graphic treatment (home page) ---------- */
+
+.VPHero {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.VPHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      ellipse 90% 70% at 70% 20%,
+      rgb(201 169 106 / 9%),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse 60% 60% at 15% 90%,
+      rgb(237 230 214 / 4%),
+      transparent 55%
+    );
+}
+/* Monogram watermark behind hero text */
+.VPHero::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: max(
+    -4%,
+    calc((100vw - min(var(--vp-layout-max-width, 1152px), 100vw)) / 2 - 140px)
+  );
+  translate: 0 -50%;
+  z-index: -1;
+  width: min(46vw, 560px);
+  aspect-ratio: 1;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.14;
+  background: var(--sr-logo) center/contain no-repeat;
+}
+@media (max-width: 960px) {
+  .VPHero::after {
+    opacity: 0.07;
+    right: -20vw;
+  }
+}
+
+/* Brass rule under the hero tagline */
+.VPHero .tagline + .actions {
+  position: relative;
+  padding-top: 28px;
+}
+.VPHero .tagline + .actions::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 1px;
+  background: var(--sr-brass);
+}
+
+/* Hero action buttons — brass treatment */
+.VPButton.brand {
+  background: var(--sr-brass);
+  color: #141310;
+  border-radius: 2px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition:
+    background-color 0.18s ease-out,
+    box-shadow 0.18s ease-out;
+}
+.VPButton.brand:hover {
+  background: var(--sr-brass-hover);
+  box-shadow: 0 6px 18px rgb(0 0 0 / 45%);
+}
+.VPButton.alt {
+  background: transparent;
+  color: var(--sr-bone);
+  border: 1px solid var(--sr-line);
+  border-radius: 2px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition:
+    border-color 0.18s ease-out,
+    color 0.18s ease-out;
+}
+.VPButton.alt:hover {
+  border-color: var(--sr-brass);
+  color: var(--sr-brass);
+}
+
+/* ---------- Feature cards ---------- */
+
+.VPFeature {
+  background: var(--sr-ink-2);
+  border: 1px solid var(--sr-line);
+  border-radius: 3px;
+  transition:
+    border-color 0.18s ease-out,
+    translate 0.18s ease-out,
+    box-shadow 0.18s ease-out;
+}
+.VPFeature:hover {
+  border-color: var(--sr-brass);
+  translate: 0 -3px;
+  box-shadow: 0 10px 24px rgb(0 0 0 / 35%);
+}
+.VPFeature .title {
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+}
+.VPFeature .details {
+  color: var(--sr-bone-dim);
+}
+
+/* ---------- Content links & headings ---------- */
+
+.vp-doc a {
+  color: var(--sr-brass);
+  text-decoration-color: rgb(201 169 106 / 40%);
+  text-underline-offset: 3px;
+}
+.vp-doc a:hover {
+  color: var(--sr-brass-hover);
+}
+.vp-doc h2 {
+  border-top: 1px solid var(--sr-line);
+  padding-top: 24px;
+}
+
+/* ---------- Sidebar / nav chrome ---------- */
+
+.VPSidebarItem.level-1.is-active > .item > .link,
+.VPSidebarItem.level-1.is-active > .item > .link:hover {
+  color: var(--sr-brass);
+}
+.VPSidebar .group .items {
+  border-left: 1px solid var(--sr-line);
+}
+.VPSidebarItem.level-1 .link:hover {
+  color: var(--sr-brass-hover);
+}
+.VPNavBar:not(.home) {
+  background: rgb(11 11 13 / 85%) !important;
+  backdrop-filter: blur(8px);
+}
+.divider {
+  border-bottom: 1px solid var(--sr-line);
+}
+
+/* ---------- Tables ---------- */
+
+.vp-doc th,
+.vp-doc td {
+  border-color: var(--sr-line);
+}
+.vp-doc tr:nth-child(2n) {
+  background: var(--sr-ink-2);
+}
+
+/* ---------- Custom blocks ---------- */
+
+.custom-block.tip {
+  background: rgb(201 169 106 / 8%);
+  border-color: var(--sr-brass);
+  color: var(--sr-bone-dim);
+}
+.custom-block.warning {
+  background: rgb(201 169 106 / 10%);
+  border-color: var(--sr-brass);
+  color: var(--sr-bone-dim);
+}
+.custom-block.warning .custom-block-title {
+  color: var(--sr-brass);
+}
+.custom-block.tip .custom-block-title {
+  color: var(--sr-brass);
+}
+
+/* ---------- Motion: one authored moment ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  .VPContent {
+    animation: sr-rise 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+  @keyframes sr-rise {
+    from {
+      opacity: 0;
+      translate: 0 14px;
+    }
+    to {
+      opacity: 1;
+      translate: 0 0;
+    }
+  }
+}
