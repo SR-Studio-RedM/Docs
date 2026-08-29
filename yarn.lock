@@ -42,6 +42,13 @@
   resolved "https://registry.yarnpkg.com/@docsearch/sidepanel-js/-/sidepanel-js-4.7.0.tgz#d767ca71f72c4673db87229f64634786a255bb08"
   integrity sha512-A8r34jCU8kcIk2viECEn2msA28ojUF1BLi/3v5OWWc5G2N3jOuuumBXoeYjfr8dA0UxgFSy5R2bt12dnFJQSyA==
 
+"@iconify-json/lucide@^1.2.126":
+  version "1.2.126"
+  resolved "https://registry.yarnpkg.com/@iconify-json/lucide/-/lucide-1.2.126.tgz#2dc7e9650d58074f0d730f859eb16083c81fe287"
+  integrity sha512-Fl3OfR71yeWLrlTLp6C4W5W3rJJDWH9/e70mjtq9VAldYDxvHh149JMNPz7foTeLLTE2Paynnp2aYKVL9rgF5Q==
+  dependencies:
+    "@iconify/types" "*"
+
 "@iconify-json/simple-icons@^1.2.92":
   version "1.2.93"
   resolved "https://registry.yarnpkg.com/@iconify-json/simple-icons/-/simple-icons-1.2.93.tgz#7c9105fe0d679a32cf846e0e72305899500db3c3"

@@ -32,8 +32,9 @@ export default defineConfig({
     },
 
     socialLinks: [
+      { icon: 'lucide:store', link: 'https://store.sirremogstudio.ca' },
       { icon: 'github', link: 'https://github.com/SR-Studio-RedM' },
-      { icon: 'discord', link: 'https://discord.gg/JApHNmE8K5' }
+      { icon: 'discord', link: 'https://discord.gg/JApHNmE8K5' },
     ]
   }
 })
