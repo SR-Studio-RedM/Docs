@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "data",
-  base: './',
   title: "SR Studio Docs",
   appearance: 'force-dark',
   description: "Documentation and resources for SR Studio RedM products",
